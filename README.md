@@ -11,7 +11,7 @@
 
         需要注意的是，在实际项目中，单个不依赖第三方库的Java源码是非常罕见的，所以，绝大多数情况下，我们无法直接运行一个Java源码文件，原因是它需要依赖其他的库。
 - 可以在 这里搜索你的 package https://developer.aliyun.com/mvn/search
-    - 
+    - 1
 - 这是第一个可以运行起来的程序，可以通过 localhost:8080 可以看到的结果的程序
     - https://spring.io/guides/gs/spring-boot/    
     - 在 demos/gc-spring-boot/initial 下使用  ./gradlew bootRun 来启动
@@ -26,4 +26,4 @@
         - 先需要找到全局的设置文件 
             - https://docs.spring.io/spring-boot/docs/2.5.0/reference/htmlsingle/#using.devtools.globalsettings
         - https://docs.spring.io/spring-boot/docs/2.5.0/reference/htmlsingle/#using.running-your-application
-        -     https://www.jb51.net/article/136925.htm
+        - https://www.jb51.net/article/136925.htm
