@@ -1,8 +1,13 @@
+
+- 之前想着一个项目要怎么启动
+    - spring-boot 的启动方式 https://docs.spring.io/spring-boot/docs/current/reference/html/using.html#using.running-your-application
+
 - Java源码本质上是一个文本文件，我们需要先用 javac 把 Hello.java编译成字节码文件Hello.class，然后，用java命令执行这个字节码文件：
     - javac 来执行 .java 文件，生成 .class 文件
     - 使用 java 来执行 .class 文件
     - 可执行文件javac是编译器，而可执行文件java就是虚拟机
-    - 有一些童鞋可能知道，直接运行java Hello.java也是可以的：
+    - ** 有一些童鞋可能知道，直接运行java Hello.java也是可以的：**
+        - 所以自己调测试 java 就可以新建一个 test.java 文件 然后 java test 来看输出就好(这里不用写 test 的后缀)
     ```java
         $ java Hello.java 
         Hello, world!
